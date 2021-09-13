@@ -1,3 +1,10 @@
 .header {
     background-image: url(./images/mike-kenneally-zlwDJoKTuA8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.button {
+    background-color: rgba(123, 80, 55, 0.918);
+    border-color: rgba(123, 80, 55, 0.918);
 }
