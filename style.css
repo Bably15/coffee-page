@@ -4,6 +4,9 @@
     background-position: center;
     height: 100vh;
 }
+.container-padding {
+    padding: 8rem 0rem;
+}
 .button {
     background-color: rgba(123, 80, 55, 0.918);
     border-color: rgba(123, 80, 55, 0.918);
@@ -30,9 +33,9 @@
     color: rgb(255, 255, 255);
 }
 
-.icons:hover {
-    background-color: chocolate;
+.icon:hover {
+    background-color: rgb(196, 196, 196);
 }
 .font-clr {
-    color: rgba(123, 79, 79, 0.809);
+    color: rgba(201, 143, 109, 0.918);
 }
