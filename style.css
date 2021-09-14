@@ -20,14 +20,16 @@
     background-image: url(./images/home2-banner6.png);
     background-size: cover;
     background-position: center;
+    padding: 7rem 0rem;
 }
 .newsletter {
     background-color: rgb(110, 77, 64);
 }
-
-.form-control {
-    background-color: rgba(167, 114, 100, 0.626);
+.banner-btn {
+    background-color: rgba(187, 75, 97, 0.768);
+    color: rgb(255, 255, 255);
 }
+
 .icons:hover {
     background-color: chocolate;
 }
