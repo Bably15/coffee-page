@@ -16,3 +16,11 @@
     background-size: cover;
     background-position: center;
 }
+.banner-bg {
+    background-image: url(./images/home2-banner6.png);
+    background-size: cover;
+    background-position: center;
+}
+.newsletter {
+    background-color: rgb(110, 77, 64);
+}
