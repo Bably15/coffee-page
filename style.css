@@ -11,3 +11,8 @@
 .cardBtn {
     background-color: rgb(133, 84, 56);
 }
+.coffeeBanner {
+    background-image: url(./images/home2-banner3.jpg);
+    background-size: cover;
+    background-position: center;
+}
