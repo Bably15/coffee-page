@@ -25,117 +25,24 @@
     </head>
     <body>
         <!-- navbar -->
-        <div class="container-fluid">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <nav
-                            class="
-                                navbar navbar-expand-lg navbar-light
-                                bg-light
-                            "
-                        >
-                            <div class="container-fluid">
-                                <a class="navbar-brand" href="#">Navbar</a>
-                                <button
-                                    class="navbar-toggler"
-                                    type="button"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#navbarSupportedContent"
-                                    aria-controls="navbarSupportedContent"
-                                    aria-expanded="false"
-                                    aria-label="Toggle navigation"
-                                >
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div
-                                    class="collapse navbar-collapse"
-                                    id="navbarSupportedContent"
-                                >
-                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                        <li class="nav-item">
-                                            <a
-                                                class="nav-link active"
-                                                aria-current="page"
-                                                href="#"
-                                                >Home</a
-                                            >
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#"
-                                                >Link</a
-                                            >
-                                        </li>
-                                        <li class="nav-item dropdown">
-                                            <a
-                                                class="nav-link dropdown-toggle"
-                                                href="#"
-                                                id="navbarDropdown"
-                                                role="button"
-                                                data-bs-toggle="dropdown"
-                                                aria-expanded="false"
-                                            >
-                                                Dropdown
-                                            </a>
-                                            <ul
-                                                class="dropdown-menu"
-                                                aria-labelledby="navbarDropdown"
-                                            >
-                                                <li>
-                                                    <a
-                                                        class="dropdown-item"
-                                                        href="#"
-                                                        >Action</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        class="dropdown-item"
-                                                        href="#"
-                                                        >Another action</a
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <hr
-                                                        class="dropdown-divider"
-                                                    />
-                                                </li>
-                                                <li>
-                                                    <a
-                                                        class="dropdown-item"
-                                                        href="#"
-                                                        >Something else here</a
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link disabled"
-                                                >Disabled</a
-                                            >
-                                        </li>
-                                    </ul>
-                                    <form class="d-flex">
-                                        <input
-                                            class="form-control me-2"
-                                            type="search"
-                                            placeholder="Search"
-                                            aria-label="Search"
-                                        />
-                                        <button
-                                            class="btn btn-outline-success"
-                                            type="submit"
-                                        >
-                                            Search
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="col-12 col-md-3 col-lg-3">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
                 </div>
+          
+              <div class="col-12 col-md-8 col-lg-6 text-center"><img src="./images/logo-h2.png" class="img-fluid" alt=""> </div>
+              
+                  <div class=" col-12 col-md-2 col-lg-2"> 
+                    <i class="fas fa-user"></i>
+                    <i class="fas fa-shopping-bag"></i>
+                  </div>
+              </div>
             </div>
-        </div>
+          </nav>
         <!-- header -->
         <div class="container-fluid text-center text-light header">
             <div class="container h-100">
@@ -496,12 +403,12 @@
                 </div>
             </div>
         </div>
-        <!-- footer -->
-        <div class="container-fluid container-padding">
+        <!-- footer -->c
+        <div class="container-fluid footer container-padding">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-4 col-lg-4">
-                        <h2>STORE INFORMATION</h2>
+                <div class="row g-5">
+                    <div class="col-12 col-md-5 col-lg-5 fs-5">
+                        <h2 class="text-dark">STORE INFORMATION</h2>
                         <p>
                             Bos Highlands <br />
                             8th floor - Palace Building - 221b Baker Street -
@@ -516,9 +423,9 @@
                             >
                         </p>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-4">
-                        <h2>Element</h2>
-                        <ul>
+                    <div class="col-12 col-md-3 col-lg-3 fs-5">
+                        <h2 class="text-dark">Element</h2>
+                        <ul class="list-unstyled">
                             <a href="#" class="text-decoration-none">
                                 <li class="list-unstyled text-dark">
                                     My account
@@ -550,44 +457,46 @@
                             </a>
                         </ul>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-4">
-                        <h2>Support</h2>
-                        <ul>
-                            <a href="#" class="text-decoration-none">
-                                <li
-                                    class="
-                                        list-unstyled
-                                        text-dark text-decoration-none
-                                    "
-                                >
-                                    Address
-                                </li>
-                                <li
-                                    class="
-                                        list-unstyled
-                                        text-dark text-decoration-none
-                                    "
-                                >
-                                    Discount
-                                </li>
-                                <li
-                                    class="
-                                        list-unstyled
-                                        text-dark text-decoration-none
-                                    "
-                                >
-                                    Delivery
-                                </li>
-                                <li
-                                    class="
-                                        list-unstyled
-                                        text-dark text-decoration-none
-                                    "
-                                >
-                                    Privacy
-                                </li>
-                            </a>
-                        </ul>
+                    <div class="col-12 col-md-3 col-lg-3 fs-5">
+                        <h2 class="text-dark">Support</h2>
+                       
+                            <ul class="list-unstyled  ">
+                                <a href="#" class="text-decoration-none">
+                                    <li
+                                        class="
+                                            list-unstyled
+                                            text-dark text-decoration-none
+                                        "
+                                    >
+                                        Address
+                                    </li>
+                                    <li
+                                        class="
+                                            list-unstyled
+                                            text-dark text-decoration-none
+                                        "
+                                    >
+                                        Discount
+                                    </li>
+                                    <li
+                                        class="
+                                            list-unstyled
+                                            text-dark text-decoration-none
+                                        "
+                                    >
+                                        Delivery
+                                    </li>
+                                    <li
+                                        class="
+                                            list-unstyled
+                                            text-dark text-decoration-none
+                                        "
+                                    >
+                                        Privacy
+                                    </li>
+                                </a>
+                            </ul>
+                        </li>
                     </div>
                 </div>
             </div>
