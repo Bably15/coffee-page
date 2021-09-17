@@ -48,3 +48,11 @@
 .footer {
     color: rgb(141, 148, 148);
 }
+.footer li {
+    transition: transform 500ms;
+    will-change: transform;
+}
+.footer li:hover {
+    transform: translateX(5px);
+    color: rgb(199, 121, 20);
+}
